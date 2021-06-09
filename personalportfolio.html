@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/fb4bd38066.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navigation{
+            display: inline-block;
+            height:97vh;
+            width: 20vw;
+            background-color: black;
+            opacity: 0.95;
+            /* border: 2px solid rgba(72, 89, 241, 0.808);
+            border-radius: 10px;
+            position: relative; */
+        }
+        .items{
+            position: absolute;
+            top: 50vh;
+            text-align: center;
+            color: ghostwhite;
+            font-size: 20px;
+            /* top: 150px; */
+        }
+        li{
+            height: 35px;
+            width:18vw;
+            margin: 4px 0px;
+        }
+        li:hover{
+            /* background-color: rgba(72, 89, 241, 0.808); */
+            color: rgb(151, 151, 228);
+            width: 20vw;
+            transform: translate(-15px, 0px);
+        }
+        
+        .image img[src="chrisevans1.jpg"]{
+            border: 10px solid rgba(148, 144, 144, 0.322);
+            border-radius: 50%;
+            position: absolute;
+            top: 3vh;
+            left: 5vw;
+            align-items: center;
+        }
+        i{
+            font-size: 26px;
+            color: rgb(145, 141, 141);
+            transform: translate(2vw, 30vh);
+            transition: font-size 0.1s ease-in-out;
+        }
+        i:hover{
+            color: whitesmoke;
+            font-size: 28px;
+        }
+        .image p{
+            position: absolute;
+            top: 24vh;
+        }
+        .body img[src="chrisevans2.jpg"]{
+            position: absolute;
+            display: inline-block;
+            top:0px;
+            height: 97vh;
+            width: auto;
+            opacity: 0.9;
+            border: none;
+            left: 20vw;
+        }
+        .text{
+            position: absolute;
+            top: 50vh;
+            left: 28vw;
+            color: rgb(186, 218, 228);
+            font-family: 'Roboto Slab', serif;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <div class="image">
+            <img src="chrisevans1.jpg" alt="404 not found" style="height: 18vh; width: 18vh;">
+            <p style="color: whitesmoke; transform: translate(11vh,1vh); font-size: 26px; font-family:'Lato', sans-serif;"><strong>Chris Evans</strong></p>
+        </div>
+        <div class="icons">
+            <i class="fab fa-instagram" style="margin: 2vh 1vw;"></i>
+            <i class="fab fa-facebook-f" style="margin: 2vh 1vw;"></i>
+            <i class="fab fa-github" style="margin: 2vh 1vw;"></i>
+            <i class="fab fa-twitter" style="margin: 2vh 1vw;"></i>
+        </div>
+        <div class="items">
+            <ul style="list-style-type:none;">
+                <li>Home</li>
+                <li>About</li>
+                <li>Qualifications</li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <img src="chrisevans2.jpg" alt="404 error found">
+    </div>
+    <div class="text">
+        <p>Chris Evans</p>
+        <p>I am an Actor</p>
+    </div>
+</body>
+</html>
