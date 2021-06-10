@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .logo{
+            position: absolute;
+        }
+        .logo img[src="logo.jpeg"]{
+            margin-left: 5px;
+            height: 80px;
+            aspect-ratio: auto 80/80;
+            width: 80px;
+        }
+        .header{
+            color: white;
+            font-family: 'Lato', sans-serif;
+            height: 80px;
+            width: 100%;
+            background-color: rgb(143, 26, 63);
+            box-shadow: 0px 15px 20px rgb(241, 189, 197);
+        }
+        h1{
+            position: absolute;
+            top: 20px;
+            left: 100px;
+            margin: 0px 15px;
+        }
+        .navbar{
+            color: whitesmoke;
+            height: 40px;
+            width: 100%;
+            background-color: rgb(182, 22, 73);
+        }
+        li{
+            float: left;
+            margin: 10px 28px;
+            transition: font-size 150ms ease-in-out;
+        }
+        li:hover{
+            cursor: pointer;
+            margin: 8px 28px;
+            font-size: 19px;
+            color: white;
+            text-shadow: 8px 8px 25px  rgba(226, 197, 197, 0.541);
+        }
+        .body img[src="aboutbg.jpg"]{
+            position:relative;
+            width: 99vw;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            background-size: cover;
+            z-index: 1;
+        }
+        .text{
+            position: absolute;
+            top: 35vh;
+            left: 20vh;
+            z-index: 2;
+            color: rgb(41, 34, 34);
+        }
+        h2{
+            font-size: 36px;
+        }
+        p{
+            font-size: 26px;
+        }
+    </style>
+</head>
+<body>
+   <div class="logo">
+      <img src="logo.jpeg">
+   </div>
+    <div class="header">
+           <h1>PORTFOLIO WEBSITE</h1>
+    </div>
+    <div class="navbar">
+        <ul style="list-style-type:none;">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li>Search</li>
+        </ul>
+    </div>
+    <div class="body">
+        <img src="aboutbg.jpg">
+    </div>
+    <div class="text">
+        <h2>ABOUT</h2> <br> <br>
+        <p>We are students of College of Engineering and technology, Bhubaneswar... this is our first website as a group made just by using HTML & CSS. This website basically consists of a collection of portfolio's of all our members who were part of this project.</p>
+    </div>
+</body>
+</html>
