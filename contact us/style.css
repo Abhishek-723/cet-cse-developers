@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(22, 21, 21);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* height: 50vh; */
+}
+.title{
+    /* height: 20vh; */
+    font-size: 1.5rem;
+}
+.icons{
+    padding: ;
+}
